@@ -1,32 +1,30 @@
 # RetailFlow: Small Business Inventory & Sales Management System
 
-**TSAcademy Junior Project Manager Assignment – Project Plan**
+**TSAcademy Junior Project Manager Assignment – Project Plan**  
+**Version:** 1.1 | **Date:** 03 October 2026 | **Status:** Reviewed & Enhanced
 
 ---
 
-## Project Title
+| Document Control | |
+|----------------|--|
+| **Project Title** | RetailFlow: Small Business Inventory & Sales Management System |
+| **Industry** | Information Technology / Digital Business Solutions |
+| **Project Duration** | 12 October 2026 – 15 January 2027 (14 calendar weeks) |
+| **Delivery Approach** | Hybrid Agile |
+| **Project Manager** | Junior Project Manager |
+| **Project Sponsor** | Business Owner / Project Sponsor |
+| **Authorised Budget** | ₦8,950,500 |
+| **Document Owner** | Project Manager |
+| **Version** | 1.1 (Review enhancements applied) |
 
-RetailFlow: Small Business Inventory & Sales Management System
+---
 
-## Industry
+## Document Version History
 
-Information Technology / Digital Business Solutions
-
-## Project Duration
-
-12 October 2026 – 15 January 2027
-
-## Project Delivery Approach
-
-Hybrid Agile
-
-## Project Manager
-
-Junior Project Manager
-
-## Project Sponsor
-
-Business Owner / Project Sponsor
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | Oct 2026 | Junior Project Manager | Initial full project plan |
+| 1.1 | 03 Oct 2026 | Junior Project Manager | Review enhancements: Critical Success Factors, Benefits Realisation, Issue Management, Resource Plan, Procurement note, Tools, Definition of Done, Escalation thresholds, Glossary |
 
 ---
 
@@ -46,9 +44,9 @@ The RetailFlow project will design, develop, test and pilot a lightweight Minimu
 - Controlled user access
 - User training and pilot support
 
-The project will use a Hybrid Agile approach. Formal project governance will be used for scope, budget, milestones, approvals and release decisions, while Agile iterations will be used for requirements refinement, design, development, testing and user feedback.
+The project will use a **Hybrid Agile** approach. Formal project governance will be used for scope, budget, milestones, approvals and release decisions, while Agile iterations will be used for requirements refinement, design, development, testing and user feedback.
 
-The project is planned for 14 calendar weeks, from 12 October 2026 to 15 January 2027, with an authorised budget of ₦8,950,500.
+The project is planned for **14 calendar weeks**, from 12 October 2026 to 15 January 2027, with an authorised budget of **₦8,950,500**.
 
 ---
 
@@ -64,7 +62,7 @@ Small retailers need accurate and accessible information about their products, s
 
 RetailFlow will address this need by creating a centralised digital system that reduces dependence on manual records and provides users with clearer information about business activity.
 
-The expected business value includes:
+**Expected business value includes:**
 
 - Improved inventory visibility
 - Better sales record keeping
@@ -157,6 +155,30 @@ Potential constraints include:
 | Budget | Spend remains within ₦8,950,500 unless formally approved |
 | Documentation | User/admin documentation completed |
 | Handover | Formal acceptance and project closure completed |
+
+### 2.8 Critical Success Factors
+
+The following factors are considered critical to project success:
+
+1. **Clear and stable MVP scope** – disciplined change control prevents scope creep.
+2. **Active Product Owner engagement** – timely prioritisation and acceptance decisions.
+3. **Representative pilot users** – realistic feedback and adoption testing.
+4. **Early and continuous testing** – defects identified and resolved before UAT.
+5. **Realistic schedule buffer** – contingency for iteration overruns and holiday periods.
+6. **Visible sponsorship** – sponsor support for decisions and resource availability.
+7. **Usable design** – intuitive interface that reduces training burden and resistance.
+
+### 2.9 Benefits Realisation Summary
+
+| Benefit | How Measured | Target Timing | Owner |
+|---------|--------------|---------------|-------|
+| Improved inventory visibility | Pilot users can view accurate stock levels in real time | During pilot (Jan 2027) | Product Owner |
+| Reduced stock-outs | Number of low-stock alerts acted upon vs. previous method | End of pilot | Pilot Users |
+| Faster sales recording | Time to record a sale (target: ≤ 60 seconds) | UAT / Pilot | QA / PO |
+| Better decision information | Pilot users report improved confidence in stock/sales data | Pilot feedback | Product Owner |
+| Foundation for future growth | Documented roadmap and clean technical handover | Project closure | Project Manager |
+
+Benefits will be reviewed at pilot close and formally transferred to the business owner at project closure.
 
 ---
 
@@ -292,6 +314,8 @@ Any material change to the approved scope must follow the project’s change-con
 - 14 Jan 2027: Pilot go-live
 - 15 Jan 2027: Project closure
 
+**Note on Schedule:** The plan includes a natural break over the late-December holiday period between feature-complete (24 Dec) and testing start (4 Jan). This provides recovery capacity if earlier iterations slip.
+
 ---
 
 ## 8. Cost Baseline
@@ -346,18 +370,18 @@ A material variance (greater than approximately 5% at work-package level) will t
 | Project status report | Sponsor/PO | Weekly | PM | Overall project health |
 | Steering review | Sponsor/PO | Weekly/milestone | PM | Decisions and escalation |
 | Backlog refinement | PO/Team | Twice weekly | PO/PM | Prioritisation |
-| Risk review | Core team | Weekly | PM | Risk control |
+| Risk & Issue review | Core team | Weekly | PM | Risk and issue control |
 | Demo | PO/Pilot users | End of iteration | Product Team | Feedback |
 | UAT sessions | Pilot users | As scheduled | QA/PO | Acceptance |
 | Closure report | Sponsor | End of project | PM | Formal closeout |
 
 ---
 
-## 11. Project Team Management
+## 11. Project Team Management & Resource Plan
 
 The project team will operate under clearly defined roles and responsibilities.
 
-Key working principles include:
+**Key working principles include:**
 
 - Clear ownership of deliverables
 - Transparent communication
@@ -368,7 +392,19 @@ Key working principles include:
 - Visible accountability
 - Recognition of contributions
 
-**Conflict Resolution**
+### 11.1 Core Team Structure (Indicative)
+
+| Role | Allocation (indicative) | Primary Responsibilities |
+|------|-------------------------|--------------------------|
+| Project Manager | 50–70% | Overall planning, control, reporting, stakeholder management |
+| Product Owner | 30–50% | Requirements, prioritisation, acceptance |
+| Lead Developer | 80–100% | Architecture, core development, technical leadership |
+| Developer(s) | 80–100% | Feature development |
+| UX/UI Designer | 40–60% (front-loaded) | User research, wireframes, prototype, design support |
+| QA / Test Lead | 50–80% (back-loaded) | Test planning, execution, defect management |
+| Pilot Users | Part-time as needed | Feedback, UAT, pilot participation |
+
+### 11.2 Conflict Resolution
 
 Where conflicts arise, the Project Manager will:
 
@@ -401,7 +437,8 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 
 ## 13. Risk Management Plan
 
-Risk management will follow a continuous process: Identify → Analyse → Plan Response → Assign Owner → Monitor → Escalate/Close
+Risk management will follow a continuous process:  
+**Identify → Analyse → Plan Response → Assign Owner → Monitor → Escalate/Close**
 
 ### Risk Register
 
@@ -418,6 +455,18 @@ Risk management will follow a continuous process: Identify → Analyse → Plan 
 
 Each risk will have a named owner responsible for monitoring triggers, implementing responses and escalating when necessary. The RAID log will be reviewed at least weekly.
 
+### 13.1 Issue Management
+
+Issues (problems that have already occurred) will be managed separately from risks:
+
+1. Log the issue in the RAID log with owner, impact and target resolution date.
+2. Assess urgency and impact.
+3. Assign resolution actions.
+4. Track to closure.
+5. Escalate if resolution is blocked or exceeds agreed tolerance.
+
+**Issue vs Risk distinction** is maintained so that proactive risk responses are not confused with reactive problem-solving.
+
 ---
 
 ## 14. Quality Management Plan
@@ -428,6 +477,17 @@ Quality will be built into the project rather than treated only as a final testi
 - **Design Quality**: The Product Owner and representative users will review key workflows and prototypes before development proceeds
 - **Development Quality**: Coding standards, peer review, version control, Definition of Done, controlled environments, technical documentation
 - **Testing**: Functional, Integration, Regression, User Acceptance Testing, Defect management. Critical defects should prevent release unless formally accepted.
+
+### 14.1 Definition of Done (MVP Feature)
+
+A feature is considered Done when:
+
+- Code is complete and peer-reviewed
+- Unit and integration tests pass
+- Acceptance criteria are met
+- No open Critical or High severity defects
+- Documentation (user and technical) is updated
+- Product Owner has reviewed and accepted the feature in an iteration review
 
 ---
 
@@ -461,6 +521,15 @@ Changes will be controlled to prevent uncontrolled scope, schedule and budget gr
 9. Close the change request with evidence.
 
 No significant change should be implemented solely through informal verbal agreement.
+
+### 16.1 Escalation & Tolerance Thresholds
+
+| Area | Tolerance | Escalation |
+|------|-----------|------------|
+| Cost (work package) | ±5% | Project Manager investigates; >10% requires Sponsor |
+| Schedule (milestone) | 3 working days | Project Manager; >5 days requires Sponsor decision |
+| Scope | Any material change | Formal change request to Sponsor / Steering |
+| Quality (Critical defects) | Zero open Critical defects at Go-Live | Sponsor acceptance required if exception sought |
 
 ---
 
@@ -514,7 +583,7 @@ A purely predictive approach could make it difficult to respond efficiently to u
 
 ## 21. Monitoring and Control
 
-Project control will follow: Plan → Execute → Measure → Analyse Variance → Correct → Communicate
+Project control will follow: **Plan → Execute → Measure → Analyse Variance → Correct → Communicate**
 
 **Key Control Areas**
 
@@ -547,7 +616,36 @@ Project documents should follow agreed naming, version-control and access rules.
 
 ---
 
-## 23. Project Closure
+## 23. Tools & Techniques
+
+| Area | Recommended Tools / Techniques |
+|------|-------------------------------|
+| Planning & Scheduling | Spreadsheet / simple Gantt or project tool |
+| Backlog & Iteration tracking | Lightweight backlog board (physical or digital) |
+| Document control | Shared drive / repository with version control |
+| RAID log | Spreadsheet template reviewed weekly |
+| Communication | Email, messaging app, short status reports |
+| Design | Wireframing / prototyping tool |
+| Development | Version control system, coding standards |
+| Testing | Test cases, defect log, acceptance checklist |
+| Reporting | Weekly one-page status (RAG) |
+
+---
+
+## 24. Procurement Note
+
+The Technology Vendor is identified as a stakeholder. Any external hosting, tooling or specialist services will be:
+
+- Identified early in technical architecture
+- Costed within the approved budget (or raised as a change)
+- Subject to basic due diligence on reliability and data protection
+- Managed through clear statements of work and acceptance criteria
+
+No major procurement process is anticipated for this MVP-scale academic project.
+
+---
+
+## 25. Project Closure
 
 Project closure will occur after:
 
@@ -576,7 +674,7 @@ Project closure will occur after:
 
 ---
 
-## 24. Project Management Principles Demonstrated
+## 26. Project Management Principles Demonstrated
 
 The RetailFlow project demonstrates practical application of:
 
@@ -590,6 +688,7 @@ The RetailFlow project demonstrates practical application of:
 - Communication planning
 - RACI responsibility assignment
 - Risk management
+- Issue management
 - Quality management
 - Change control
 - Governance
@@ -598,11 +697,12 @@ The RetailFlow project demonstrates practical application of:
 - Hybrid project management
 - Monitoring and control
 - Knowledge management
+- Benefits consideration
 - Project closure
 
 ---
 
-## 25. Conclusion
+## 27. Conclusion
 
 RetailFlow is structured as a temporary project with a defined beginning, defined end, specific objectives, identifiable stakeholders, measurable deliverables and an approved budget.
 
@@ -614,7 +714,7 @@ The final outcome will be a focused MVP that demonstrates how a small retailer c
 
 ---
 
-## 26. Academic Planning Note
+## 28. Academic Planning Note
 
 All dates, costs, resource assumptions and estimates in this project plan are illustrative academic planning assumptions prepared for the TSAcademy Junior Project Manager assignment.
 
@@ -634,10 +734,27 @@ Before implementation in a real organisation, the project would require validati
 
 ---
 
+## 29. Glossary of Key Terms
+
+| Term | Meaning |
+|------|---------|
+| MVP | Minimum Viable Product – the smallest set of features that delivers value and allows learning |
+| Hybrid Agile | Combination of predictive (waterfall-style) governance with Agile iterative delivery |
+| RAID | Risks, Assumptions, Issues, Dependencies (log) |
+| RACI | Responsible, Accountable, Consulted, Informed |
+| UAT | User Acceptance Testing |
+| Definition of Done | Checklist that must be satisfied before a feature is considered complete |
+| Contingency Reserve | Budget for known risks |
+| Management Reserve | Budget for unknown risks / changes (sponsor controlled) |
+| Quality Gate | Formal checkpoint that must be passed before proceeding |
+
+---
+
 **END OF PROJECT PLAN**
 
-Project: RetailFlow — Small Business Inventory & Sales Management System  
-Prepared for: TSAcademy Junior Project Manager Assignment  
-Project Duration: 12 October 2026 – 15 January 2027  
-Authorised Academic Budget: ₦8,950,500  
-Delivery Approach: Hybrid Agile
+**Project:** RetailFlow — Small Business Inventory & Sales Management System  
+**Prepared for:** TSAcademy Junior Project Manager Assignment  
+**Project Duration:** 12 October 2026 – 15 January 2027  
+**Authorised Academic Budget:** ₦8,950,500  
+**Delivery Approach:** Hybrid Agile  
+**Document Version:** 1.1 (Enhanced after review)
